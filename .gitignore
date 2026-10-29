@@ -1,0 +1,22 @@
+# Environment
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.DS_Store
+
+# Large / generated artifacts
+weights/
+data/
+outputs/
+*.part
+
+# Test / tooling
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/secrets.toml

@@ -1,0 +1,27 @@
+# Core runtime
+torch>=2.5
+torchvision>=0.20
+transformers>=4.45
+accelerate>=1.0
+safetensors>=0.4
+numpy>=1.26
+Pillow>=10.0
+opencv-python>=4.10
+
+# UI
+streamlit>=1.40
+streamlit-image-comparison>=0.0.4
+
+# Models
+spandrel>=0.4
+
+# Evaluation / tooling
+scikit-image>=0.24
+lpips>=0.1.4
+pandas>=2.0
+matplotlib>=3.8
+PyYAML>=6.0
+tqdm>=4.66
+requests>=2.31
+pytest>=8.0
+ruff>=0.6
